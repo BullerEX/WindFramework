@@ -6,14 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="felipe-pageObjects" />
         <module name="felipe-page-objects" />
-        <module name="felipe-domain" />
         <module name="felipe-framework" />
+        <module name="felipe-domain" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="felipe-page-objects" target="1.5" />
+      <module name="felipe-pageObjects" target="1.5" />
       <module name="felipe-regression-tests" target="1.5" />
     </bytecodeTargetLevel>
   </component>

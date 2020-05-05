@@ -6,10 +6,6 @@
     <dependencySets>
         <dependencySet>
             <useProjectArtifact>false</useProjectArtifact>
-            <excludes>
-                <exclude>commons-logging:commons-logging</exclude>
-                <exclude>log4j:log4j</exclude>
-            </excludes>
         </dependencySet>
     </dependencySets>
     <fileSets>
