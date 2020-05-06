@@ -1,7 +1,8 @@
-package felipe.pageObjects.homePage;
+package felipe.pageobjects.homepage;
 
-import felipe.framework.core.BasePage;
 import org.openqa.selenium.WebDriver;
+import felipe.framework.core.BasePage;
+
 
 public class GoogleHomePage extends BasePage {
     public GoogleHomePage(WebDriver driver) {
